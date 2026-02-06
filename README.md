@@ -14,8 +14,7 @@ This was built as a real-world IT project focused on virtualization, Linux admin
 ---
 
 ## Project Structure
-
-
+```
 guacamole-tailscale-remote-desktop/
 ├── README.md
 ├── .gitignore
@@ -28,7 +27,7 @@ guacamole-tailscale-remote-desktop/
 │   └── tailscale-status.png
 └── notes/
     └── troubleshooting.md
-
+```
 ---
 
 ## Architecture
