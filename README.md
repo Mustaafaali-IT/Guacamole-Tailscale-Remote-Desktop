@@ -13,6 +13,15 @@ This was built as a real-world IT project focused on virtualization, Linux admin
 
 ---
 
+## 🎥 Video Demonstration
+
+A short walkthrough showing Docker containers running, Apache Guacamole in the browser, and a successful remote desktop session.
+
+▶️ **Watch the demo:**  
+https://github.com/Mustaafaali-IT/Guacamole-Tailscale-Remote-Desktop/releases/tag/v1.0-demo
+
+---
+
 ## Project Structure
 
 ```
