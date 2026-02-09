@@ -17,19 +17,23 @@ This was built as a real-world IT project focused on virtualization, Linux admin
 
 ```
 guacamole-tailscale-remote-desktop/
-├── README.md
-├── .gitignore
-├── screenshots/
-│   ├── guacamole-login.png
-│   ├── guacamole-desktop.png
-│   └── tailscale-machines.png
-├── docker/
-│   └── guacamole/
-│       └── .gitkeep
-├── docs/
-│   └── troubleshooting.md
-└── scripts/
-    └── .gitkeep
+├─ README.md
+├─ .gitignore
+├─ docker/
+│  ├─ docker-compose.yml
+│  ├─ .env.example
+│  └─ guacamole/
+│     └─ initdb.sql (optional, if you used one)
+├─ scripts/
+│  ├─ start.sh
+│  ├─ stop.sh
+│  └─ status.sh
+├─ docs/
+│  └─ troubleshooting.md
+└─ screenshots/
+   ├─ guacamole-login.png
+   ├─ guacamole-desktop-session.png
+   └─ tailscale-connected-devices.png
 ```
 
 ---

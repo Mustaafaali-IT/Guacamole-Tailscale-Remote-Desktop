@@ -1,11 +1,90 @@
-# Secrets / env files
-.env
-*.env
-guacamole/.env
-
-# OS junk
+# =========================
+# OS / System files
+# =========================
 .DS_Store
+.DS_Store?
 Thumbs.db
+ehthumbs.db
+Desktop.ini
 
+# =========================
 # Logs
+# =========================
 *.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.der
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+*.ovpn
+
+# =========================
+# Docker / Compose local-only
+# =========================
+docker/.env
+docker/**/.env
+**/*.secret
+**/*secrets*
+*.sqlite
+*.sqlite3
+
+# =========================
+# Node / Web
+# =========================
+node_modules/
+dist/
+build/
+out/
+.cache/
+.next/
+.nuxt/
+.svelte-kit/
+coverage/
+.vite/
+*.tsbuildinfo
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+ENV/
+.envrc
+.pytest_cache/
+.mypy_cache/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+
+# =========================
+# Misc
+# =========================
+*.tmp
+*.bak
+*.old
