@@ -95,10 +95,10 @@ At the same time, I wanted a portfolio-grade project that forced me to solve rea
 SSH is used for secure remote administration of the Ubuntu server.
 
 Example from the laptop:
-
+```
 powershell
 ssh <ubuntu-username>@<vm-tailscale-ip>
-
+```
 ---
 
 ## Project Outcome
