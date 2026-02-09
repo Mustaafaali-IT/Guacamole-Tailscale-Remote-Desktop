@@ -21,15 +21,14 @@ guacamole-tailscale-remote-desktop/
 ├─ .gitignore
 ├─ docker/
 │  ├─ docker-compose.yml
-│  ├─ .env.example
-│  └─ guacamole/
-│     └─ initdb.sql (optional, if you used one)
+│  └─ .env.example
 ├─ scripts/
 │  ├─ start.sh
 │  ├─ stop.sh
 │  └─ status.sh
 ├─ docs/
-│  └─ troubleshooting.md
+│  ├─ troubleshooting.md
+│  └─ setup-note.md
 └─ screenshots/
    ├─ guacamole-login.png
    ├─ guacamole-desktop-session.png
